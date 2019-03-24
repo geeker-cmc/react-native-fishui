@@ -5,8 +5,7 @@
 react-native组件库，旨在提升个人。
 
 ### 组件库
-[ ] Accordion
-[x] Button
-[ ] Text
-[ ]
+* [ ] Accordion 手风琴组件
+* [x] Button 图片选择组件
+
 
