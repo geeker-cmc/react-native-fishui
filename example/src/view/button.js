@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
-import { Button } from '../../component';
+import { View } from 'react-native';
+import { Button } from '../dist-components';
 // import { ThemeProvider } from '../../component/style';
 
 export default class ButtonView extends Component {

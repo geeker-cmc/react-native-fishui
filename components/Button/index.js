@@ -140,7 +140,7 @@ export default class Button extends PureComponent {
 }
 
 Button.defaultProps = {
-  type: 'primary',
+  type: 'default',
   children: '',
   disabled: false,
   size: 'large',
@@ -150,7 +150,7 @@ Button.defaultProps = {
 };
 
 Button.propTypes = {
-  type: PropTypes.string,
+  type: PropTypes.oneOf(['default', 'primary', 'ghost', 'warning']),
   children: PropTypes.string,
   disabled: PropTypes.bool,
   size: PropTypes.oneOf(['large', 'small']),

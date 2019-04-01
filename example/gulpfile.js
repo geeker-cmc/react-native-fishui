@@ -6,7 +6,7 @@ const watcher = watch('../components/**/*');
 
 function copy() {
   return src('../components/**/*')
-    .pipe(dest('component/'));
+    .pipe(dest('./src/dist-components/'));
 }
 
 task('copy', () => copy());
