@@ -3,6 +3,7 @@ import Home from '../view/home';
 import ButtonView from '../view/button';
 import IconView from '../view/icon';
 import FlexPage from '../view/flex';
+import CarouselPage from '../view/carousel';
 
 
 const AppNavigator = createStackNavigator({
@@ -18,8 +19,11 @@ const AppNavigator = createStackNavigator({
   Flex: {
     screen: FlexPage,
   },
+  Carousel: {
+    screen: CarouselPage,
+  },
 }, {
-  initialRouteName: 'Home',
+  initialRouteName: 'Carousel',
   headerMode: 'none',
 });
 

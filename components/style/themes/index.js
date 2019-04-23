@@ -66,5 +66,9 @@ export default {
   link_button_fill_tap: '#dddddd',
   link_button_font_size: 16,
 
+  // checkbox
+  checkbox_line_color: '#e5e5e5',
+  checkbox_line_width: 1,
+  checkbox_height: 50,
 
 };

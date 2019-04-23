@@ -18,7 +18,8 @@
   "rules": {
     "react/jsx-filename-extension": 0,
     "no-console": 0,
-    "react/prop-types": 0
+    "react/prop-types": 0,
+    "react/no-array-index-key": 0
   },
   "settings": {
     "import/parser": "babel-eslint",
